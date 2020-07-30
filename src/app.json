@@ -2,13 +2,15 @@
   "pages": [
     "pages/index/main",
     "pages/logs/main",
-    "pages/counter/main"
+    "pages/counter/main",
+    "pages/shop/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "navigationStyle":"custom"
   },
   "tabBar": {
     "color": "#999",
@@ -21,7 +23,14 @@
       "pagePath": "pages/index/main",
       "iconPath": "static/tabs/home.png",
       "selectedIconPath": "static/tabs/home-active.png"
-    }, {
+    }, 
+    {
+      "text": "发现",
+      "pagePath": "pages/shop/main",
+      "iconPath": "static/tabs/shop.png",
+      "selectedIconPath": "static/tabs/shop-on.png"
+    },
+    {
       "text": "订单",
       "pagePath": "pages/logs/main",
       "iconPath": "static/tabs/orders.png",

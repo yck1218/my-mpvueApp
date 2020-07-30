@@ -1,10 +1,3 @@
-### 你好
-
-# 1my-mpvue
-
-> A Mpvue project
-
-## Build Setup
 
 ``` bash
 # 初始化项目
