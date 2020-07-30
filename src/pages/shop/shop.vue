@@ -1,6 +1,6 @@
 <template>
   <div>
-    我是日志页面
+      发现
   </div>
 </template>
 
